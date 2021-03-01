@@ -6,8 +6,6 @@ let userName=prompt('Hey, What is our BEAUTIFUL customer name?');
 //console.log('coustmer name :',userName);
 
 let myName=prompt('so CAN you guess who is  the best future developer , who made this webpage ?');
-
-
  if(myName.toLocaleLowerCase()==='yes' || myName.toLocaleLowerCase()=== 'y')
  { alert('There are those who have high confidence here');}
  else if (myName.toLocaleLowerCase() ==='no'|| myName.toLocaleLowerCase() ==='n')
@@ -18,8 +16,6 @@ let myName=prompt('so CAN you guess who is  the best future developer , who made
 
 //q1
 let location=prompt('so Do I am from france ?');
-
-
  if(location.toLocaleLowerCase()==='yes' || myName.toLocaleLowerCase()=== 'y')
  { //console.log('incorrect');
    alert('Erreur *--* mean wrong in English ');}
@@ -31,7 +27,6 @@ let location=prompt('so Do I am from france ?');
 
 //q2
 let age =prompt('so guess my age , is my age 25??')
-
 if(age.toLocaleLowerCase()==='yes' || age.toLocaleLowerCase()==='y')
  { //console.log('incorrect');
      alert('NOooo, I am not old ');}
