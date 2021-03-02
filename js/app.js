@@ -90,7 +90,9 @@ let Name = prompt('so lets make it harder , How many letters my name is ??','num
   for (let i=0 ; i< 3 ;i++) {
 
     if (Name == 6) 
-   { alert ('CONGRAGULATIONS!! You  kill it !! , its 6 ');
+
+   {   //console.log('correct'); 
+    alert ('CONGRAGULATIONS!! You  kill it !! , its 6 ');
       mark = mark + 1;
       break; 
    }
@@ -121,7 +123,7 @@ for(let  i=0; i<6;i++) {
   break;}
 
  }
-if (userAnswer === city){
+if (userAnswer === city){ //console.log('correct');
   alert ('CONGRAGULATIONS! You are Amazing ! MY Favorite citys are  : UK , Turkey ,japan '); 
   mark  = mark + 1;
  }else{alert ('ohhh , you didnt git me right , my Favorite Citys are : UK , Turkey ,japan  ');
