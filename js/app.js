@@ -1,4 +1,4 @@
-'use strict'; 
+'use strict';
 
 let userName=prompt('Hey, What is our BEAUTIFUL customer name?');
   alert('we hope you are well  ' +  userName +'  Wellcom to FOODI FOOD');
@@ -14,6 +14,24 @@ let myName=prompt('so CAN you guess who is  the best future developer , who made
     {alert('just try it dear!!');}
        else alert ('Accept  yes/y or no/n only!! ') 
 
+
+       
+ //q1
+let loco=prompt('so Do I am from france ?');
+
+
+if(loco.toLocaleLowerCase()==='yes' || loco.toLocaleLowerCase()=== 'y')
+ { //console.log('incorrect');
+   alert('Erreur *--* mean wrong in English ');}
+ else if (loco.toLocaleLowerCase() ==='no'|| loco.toLocaleLowerCase() ==='n')
+    {//console.log('correct');
+      alert('correct , Merci beaucoup');}
+       else alert ('Accept  yes/y or no/n only!! ')  
+
+
+
+
+//q2
 let age =prompt('so guess my age , is my age 25??')
 
 if(age.toLocaleLowerCase()==='yes' || age.toLocaleLowerCase()==='y')
@@ -26,7 +44,7 @@ if(age.toLocaleLowerCase()==='yes' || age.toLocaleLowerCase()==='y')
 
 
 
-
+//q3
 let phase =prompt('Am I student ??');
 if(phase.toLocaleLowerCase()==='yes'  || phase.toLocaleLowerCase()==='y')
  { //console.log('correct');
@@ -36,7 +54,7 @@ if(phase.toLocaleLowerCase()==='yes'  || phase.toLocaleLowerCase()==='y')
      alert('that is wrong  '+ ' '+ userName);}
       else alert ('Accept yes/y or no/n only!! ');
 
-
+//q4
 let dark=prompt(' Am I afraid of the dark?');
 if(dark.toLocaleLowerCase()==='yes' || dark.toLocaleLowerCase()==='y')
  { //console.log('incorrect');
@@ -47,7 +65,7 @@ if(dark.toLocaleLowerCase()==='yes' || dark.toLocaleLowerCase()==='y')
       else alert ('Accept yes/y or no/n only !!');
 
 
-
+//q5
 let love = prompt('Do i love food??');
 if(love.toLocaleLowerCase()==='yes' || love.toLocaleLowerCase()==='y')
 {  //console.log('correct');
