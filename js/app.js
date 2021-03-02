@@ -108,33 +108,24 @@ if (Name != 6 )
   alert ('O0o0opss you did not guess it ! Its 6 Broo '); 
 }
 
-
-
-//q7 
-let favCity =[ 'UK' ,'Turkey' ,'japan']; 
+let favCity =[ 'london' ,'bali' ,'japan']; 
 let userAnswer;
 let city;
 for(let  i=0; i<6;i++) {
-  userAnswer = prompt('What is  My favorite City').toLowerCase ();
- for(let i=0 ; i<3;i++){
-  if(userAnswer === favCity[i]){
-  city=favCity[i]
+  userAnswer = prompt('What is  My favorite City').toLowerCase ();{ 
+
+    if(userAnswer === favCity[0] || userAnswer === favCity[1] || userAnswer === favCity[2] ){
+    alert ('CONGRAGULATIONS! You are Amazing ! MY Favorite citys are  : london , bali ,japan ');
+      mark  = mark + 1;
+    break;} 
+   else if (userAnswer != favCity[0] && userAnswer != favCity[1] && userAnswer != favCity[2]) 
+  {
+  alert ('Try again ');} 
+ 
   }
-  break;}
+}  
 
- }
-if (userAnswer === city){ //console.log('correct');
-  alert ('CONGRAGULATIONS! You are Amazing ! MY Favorite citys are  : UK , Turkey ,japan '); 
-  mark  = mark + 1;
- }else{alert ('ohhh , you didnt git me right , my Favorite Citys are : UK , Turkey ,japan  ');
+ console.log ('ohhh , you didnt git me right , my Favorite Citys are : UK , Turkey ,japan  ');
 
- }
-  
 alert (' its ok , good job ' +   userName  +'  press ok to know your mark ');
 alert('You git ' + mark + '  out of 7 and i will give u 1 more  mark Because of your beautiful eyes *--* ');
-
-
-
-
-
-
