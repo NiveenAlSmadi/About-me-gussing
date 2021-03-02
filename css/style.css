@@ -2,15 +2,22 @@
 div {
     width: 320px;
     padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
+    border: 5px solid gray currentColor ;
+    margin: 0 auto;
     
   }
   
- /* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
+
+footer{
+  width: 5x;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  background-color:rgba(226, 13, 13, 0.952);
+
+
+
+} 
 
 
 
