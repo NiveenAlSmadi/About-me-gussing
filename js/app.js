@@ -76,7 +76,7 @@ if(love.toLocaleLowerCase()==='yes' || love.toLocaleLowerCase()==='y')
      
  
      
-alert ('good job' + '  ' +   userName  +'nice to meet you ');
+alert ('good job' + '  ' +   userName  +'  nice to meet you ');
 
 
 
