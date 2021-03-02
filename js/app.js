@@ -6,14 +6,18 @@ let userName=prompt('Hey, What is our BEAUTIFUL customer name?');
 //console.log('coustmer name :',userName);
 
 let myName=prompt('so CAN you guess who is  the best future developer , who made this webpage ?');
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 64b958eaf7c7b8dc3bc4c311de190611c80d83cc
  if(myName.toLocaleLowerCase()==='yes' || myName.toLocaleLowerCase()=== 'y')
  { alert('There are those who have high confidence here');}
  else if (myName.toLocaleLowerCase() ==='no'|| myName.toLocaleLowerCase() ==='n')
     {alert('just try it dear!!');}
        else alert ('Accept  yes/y or no/n only!! ') 
 
+<<<<<<< HEAD
 
        
  //q1
@@ -33,7 +37,23 @@ if(loco.toLocaleLowerCase()==='yes' || loco.toLocaleLowerCase()=== 'y')
 
 //q2
 let age =prompt('so guess my age , is my age 25??')
+=======
+>>>>>>> 64b958eaf7c7b8dc3bc4c311de190611c80d83cc
 
+
+//q1
+let location=prompt('so Do I am from france ?');
+ if(location.toLocaleLowerCase()==='yes' || myName.toLocaleLowerCase()=== 'y')
+ { //console.log('incorrect');
+   alert('Erreur *--* mean wrong in English ');}
+ else if (myName.toLocaleLowerCase() ==='no'|| myName.toLocaleLowerCase() ==='n')
+    {//console.log('correct');
+      alert('correct , Merci beaucoup');}
+       else alert ('Accept  yes/y or no/n only!! ') 
+
+
+//q2
+let age =prompt('so guess my age , is my age 25??')
 if(age.toLocaleLowerCase()==='yes' || age.toLocaleLowerCase()==='y')
  { //console.log('incorrect');
      alert('NOooo, I am not old ');}
@@ -74,6 +94,19 @@ if(love.toLocaleLowerCase()==='yes' || love.toLocaleLowerCase()==='y')
       //console.log('incorrect');
      alert('nuppp, i loveee it');}
      else alert ('Accept yes/y or no/n only !!');
+<<<<<<< HEAD
+=======
+
+
+
+ 
+     
+
+     alert ('good job' + '  ' +   userName  +'nice to meet you ');
+
+
+
+>>>>>>> 64b958eaf7c7b8dc3bc4c311de190611c80d83cc
 
 
 
