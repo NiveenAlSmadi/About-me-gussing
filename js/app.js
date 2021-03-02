@@ -124,10 +124,9 @@ for(let  i=0; i<6;i++) {
 if (userAnswer === city){
   alert ('CONGRAGULATIONS! You are Amazing ! MY Favorite citys are  : UK , Turkey ,japan '); 
   mark  = mark + 1;
- break;
  }else{alert ('ohhh , you didnt git me right , my Favorite Citys are : UK , Turkey ,japan  ');
 
-}
+ }
   
 alert (' its ok , good job ' +   userName  +'  press ok to know your mark ');
 alert('You git ' + mark + '  out of 7 and i will give u 1 more  mark Because of your beautiful eyes *--* ');
