@@ -92,7 +92,7 @@ let Name = prompt('so lets make it harder , How many letters my name is ??','num
     if (Name == 6) 
 
    {   //console.log('correct'); 
-    alert ('CONGRAGULATIONS!! You  kill it !! , its 6 ');
+    alert ('Congrats!! You  kill it !! , its 6 ');
       mark = mark + 1;
       break; 
    }
@@ -115,7 +115,7 @@ for(let  i=0; i<6;i++) {
   userAnswer = prompt('What is  My favorite City').toLowerCase ();{ 
 
     if(userAnswer === favCity[0] || userAnswer === favCity[1] || userAnswer === favCity[2] ){
-    alert ('CONGRAGULATIONS! You are Amazing ! MY Favorite citys are  : london , bali ,japan ');
+    alert ('Congrats! You are Amazing ! MY Favorite citys are  : london , bali ,japan ');
       mark  = mark + 1;
     break;} 
    else if (userAnswer != favCity[0] && userAnswer != favCity[1] && userAnswer != favCity[2]) 
@@ -129,3 +129,4 @@ for(let  i=0; i<6;i++) {
 
 alert (' its ok , good job ' +   userName  +'  press ok to know your mark ');
 alert('You git ' + mark + '  out of 7 and i will give u 1 more  mark Because of your beautiful eyes *--* ');
+
