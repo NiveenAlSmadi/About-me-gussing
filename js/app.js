@@ -110,7 +110,7 @@ if (Name != 6 )
 
 let favCity =[ 'london' ,'bali' ,'japan']; 
 let userAnswer;
-let city;
+
 for(let  i=0; i<6;i++) {
   userAnswer = prompt('What is  My favorite City').toLowerCase ();{ 
 
