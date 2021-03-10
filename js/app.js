@@ -102,9 +102,11 @@ function bas(){
       else if (userAnswer !== favCity[0] && userAnswer !== favCity[1] && userAnswer !== favCity[2])
       {
         alert ('Try again ');} }}
-  //console.log ('ohhh , you didnt git me right , my Favorite Citys are : UK , Turkey ,japan  ');
+  alert ('ohhh , you didnt git me right , my Favorite Citys are : UK , Turkey ,japan  ');
   return mark;
 }
+
+
 
 
 let loco=prompt('so Do I am from france ?');
